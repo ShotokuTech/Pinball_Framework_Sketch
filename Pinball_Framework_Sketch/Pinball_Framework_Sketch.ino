@@ -9,6 +9,8 @@ int playButton = 35;
 
 void setup() {
   Serial.begin(9600);
+  delay(1000);
+  Serial.println();
   Serial.println("Press start!");
   pinMode(startButton, INPUT);
   pinMode(playButton, INPUT);
